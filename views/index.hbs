@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Music Player Website</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Music Player</div>
+    <div class="navbar-center">
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button><i class="fas fa-search"></i>  Search</button>
+      </div>
+    </div>
+    <div class="navbar-links">
+      <a href="/home" class="nav-link">Home</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/latesthits" class="nav-link">Latest hits</a>
+      <a href="/hindisongs" class="nav-link">Hindi Songs</a>
+      <a href="/englishsongs" class="nav-link">English Songs</a>
+      <div class="dropdown">
+        <button class="dropbtn">Genre</button>
+        <div class="dropdown-content">
+          <a href="/trending" target="_blank">Trending</a>
+          <a href="/bollywood" target="_blank">Bollywood Songs</a>
+          <a href="/hollywood" target="_blank">Hollywood Songs</a>
+          <a href="/sad" target="_blank">Sad Songs</a>
+          <a href="/party" target="_blank">Party Songs</a>
+          <a href="/90s" target="_blank">90's Hits</a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <a href="/login" class="login" target="_blank">
+        <i class="fas fa-sign-in-alt"></i>
+        <span>Login</span>
+      </a>
+      <a href="/signup" class="signup" target="_blank">
+        <i class="fas fa-user-plus"></i>
+        <span>SignUp</span>
+      </a>
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
